@@ -1,0 +1,403 @@
+/* .block{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: green;
+    font-size: 32px;
+    font-weight: 900px;
+    transform: skewX(30deg);
+    transform: scale(5);
+    animation-name: s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes s{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+
+
+/*  HomeWork  */
+
+.vse{
+    background-color: #F3D7B7;
+    height: 720px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+img{
+    position: relative;
+    right: 200px;
+    top: 8px;
+    cursor: pointer;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 200px;
+    align-items: start;
+    list-style-type: none;
+    gap: 45px;
+}
+li{
+    color: #333333;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+}
+li:hover{
+    color: chocolate;
+    cursor: pointer;
+    text-decoration: underline ;
+
+}
+
+.header-inblock{
+    margin-top: 200px;
+    position: relative;
+    left: 30px;
+    
+}
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.p{
+    color: #000000;
+}
+
+button{
+    margin-top: 40px;
+    position: relative;
+    left: 10px;
+    background-color: #0A775F;
+    border-radius: 80px;
+    height: 40px;
+    border: 1px solid #0A775F;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.img{
+    position: relative;
+    left: 1150px;
+    bottom: 350px;
+    cursor: pointer;
+}
+.imgg{
+    position: relative;
+    left: 1050px;
+    bottom: 930px;
+    cursor: pointer;
+
+}
+
+.dumaloo{
+    position: relative;
+    animation-name: dumalo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+@keyframes dumalo{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+/* ikki */
+
+.second{
+    display: block;
+    justify-content: space-around;
+}
+
+.hhh{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bir{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 200px;
+    margin-top: 50px;
+    
+}
+.ikki{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 200px;
+    margin-top: 100px;
+}
+.uch{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 200px;
+    margin-top: 100px;
+}
+.tor{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 200px;
+    margin-top: 100px;
+}
+h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.birr{
+    position: relative;
+    right: 500px;
+    margin-top: 150px;
+}
+.ikkii{
+    position: relative;
+    left: 100px;
+    margin-top: 150px;
+}
+.uchh{
+    position: relative;
+    right: 500px;
+    margin-top: 150px;
+}
+.torr{
+    position: relative;
+    left: 100px;
+    margin-top: 150px;
+}
+p{
+    color: #333333;
+}
+.w{
+    cursor: pointer;
+    width: 460px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3D7B7;
+    height: 160px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 200px;
+    align-items: start;
+    list-style-type: none;
+    gap: 45px;
+}
+li{
+    color: #333333;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+}
+li:hover{
+    color: chocolate;
+    cursor: pointer;
+    text-decoration: underline ;
+
+}
+.qw{
+    position: relative;
+    left: 5px;  
+}
+
+
+
+
+
+
+
+.cofe{
+    position: relative;
+    right: 10px;
+    
+}
+.ull{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+    left: 80px;
+    align-items:center;
+    list-style-type: none;
+    
+}
+.lii{
+    color: #333333;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+    
+}
+.lii:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+.rasm{
+    position: relative;
+    left: 250px;
+}
+.rasmm{
+    position: relative;
+    left: 150px;
+}
+.rasmmm{
+    position: relative;
+    left: 50px;
+}
+
+
+
+.third{
+    background-color: #F3D7B7;
+    height: 720px;
+    
+}
+.ph{
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.v{
+     margin-top: 150px;
+    position: relative;
+    left: 30px;
+}
+
+.raasm{
+     position: relative;
+    left: 1020px;
+    bottom: 250px;
+}
+
+.ra{
+    width: 600px;
+    height: 400px;
+}
+
+.raaasm{
+    position: relative;
+    left: 920px;
+    bottom: 750px;
+}
+
+.four{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+}
+.hh{
+    text-transform: uppercase;
+}
+.ppppp{
+    color: #333333;
+}
+.kofeda{
+    margin-top: 150px;
+    position: relative;
+    left: 80px;
+}
+.kofeeda{
+    width: 300px;
+
+    animation: dumalok 5s infinite;
+}
+@keyframes dumalok {
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.zz{
+    margin-top: 150px;
+
+}
+
+
+
+.five{
+    background-color: #C99B67;
+    height: 500px;
+    
+}
+
+.fivee{
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+.h{
+    color: #000000;
+    text-transform: uppercase;
+}
+.pp{
+    color: #FFFFFF;
+}
+.hg{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+.rasmde{
+    position: relative;
+    left: 1100px;
+    bottom: 400px;
+}
+
+.qoravoy{
+    width: 500px;
+    height: 500px;
+}
+
+.ulll{
+    position: relative;
+    left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+
